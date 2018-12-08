@@ -11,7 +11,7 @@
     <h3 id="titulo">Agregar Empleado</h3>
     <hr color="blue" size=3 />
     
-    <form method="post" action="Ingresar.php">
+    <form method="post" action="agregar.php">
         <p id="parrafo2">
         <strong>Nombre:</strong> <input type="text" name="Nom" size="40">
         &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Fecha de Ingreso:</strong> <input type="text" name="Fech" size="10">
