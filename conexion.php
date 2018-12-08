@@ -7,5 +7,5 @@ $Fecha =$_POST['Fech']
   
   $sql = "INSERT INTO Empleado (nombre, feching) VALUES ('$Nombre', '$Fecha')"
   
-  $resultado = pg_query($con, $sql)
+  $resultado = pg_query($db, $sql)
 ?>
