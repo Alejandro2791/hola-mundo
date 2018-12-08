@@ -8,4 +8,13 @@ $Fecha =$_POST['Fech']
   $sql = "INSERT INTO Empleado (nombre, feching) VALUES ('$Nombre', '$Fecha')"
   
   $resultado = pg_query($db, $sql)
+  
+  if($resultado){
+echo "<script>
+alert('Registro nuevo');
+</script>";;
+}else{
+echo "Error: ".$sql."<br>".mysqli_error($conexion);
+}
+mysqli_close($conexion);
 ?>
