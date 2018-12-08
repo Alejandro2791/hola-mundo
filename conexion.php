@@ -3,7 +3,7 @@ $db = pg_connect("host='ec2-54-163-230-178.compute-1.amazonaws.com' dbname=d7396
 
 //Variables de Insertar Datos
 $Nombre =$_POST['Nom'];
-$Fecha =$_POST['Fech']
+$Fecha =$_POST['Fech'];
   
   $sql = "INSERT INTO Empleado (nombre, feching) VALUES ('$Nombre', '$Fecha')";
   
