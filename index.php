@@ -19,7 +19,7 @@ $db = pg_connect("host='ec2-54-163-230-178.compute-1.amazonaws.com' dbname=d7396
     <hr color="blue" size=3 />
         <p id="parrafo2">
         <strong>Nombre:</strong> <input type="text" name="Nom" size="40">
-        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Fecha de Ingres:</strong> <input type="text" name="Fech" size="5">
+        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Fecha de Ingreso:</strong> <input type="text" name="Fech" size="10">
     </p>
 
     <p id="parrafo3">
