@@ -5,9 +5,9 @@ $db = pg_connect("host='ec2-54-163-230-178.compute-1.amazonaws.com' dbname=d7396
 $Nombre =$_POST['Nom'];
 $Fecha =$_POST['Fech']
   
-  $sql = "INSERT INTO Empleado (nombre, feching) VALUES ('$Nombre', '$Fecha')"
+  $sql = "INSERT INTO Empleado (nombre, feching) VALUES ('$Nombre', '$Fecha')";
   
-  $resultado = pg_query($db, $sql)
+  $resultado = pg_query($db, $sql);
   
   if($resultado){
 echo "<script>
