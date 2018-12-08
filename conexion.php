@@ -7,9 +7,7 @@ $Fecha =$_POST['Fech']
   
   $sql = "INSERT INTO Empleado (nombre, feching) VALUES ('$Nombre', '$Fecha')";
   
-  $resultado = pg_query($db, $sql);
-  
-  if($resultado){
+  if(pg_query($db, $sql)){
 echo "<script>
 alert('Registro nuevo');
 </script>";;
