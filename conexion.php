@@ -12,7 +12,6 @@ echo "<script>
 alert('Registro nuevo');
 </script>";;
 }else{
-echo "Error: ".$sql."<br>".mysqli_error($conexion);
+echo "Error: ".$sql."<br>".pg_last_error($db);
 }
-mysqli_close($conexion);
 ?>
