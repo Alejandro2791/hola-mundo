@@ -13,5 +13,6 @@ alert('Registro nuevo');
 </script>";;
 }else{
 echo "Error: ".$sql."<br>".pg_last_error($db);
+    window.location= 'index.php'
 }
 ?>
