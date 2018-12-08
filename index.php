@@ -18,17 +18,10 @@ $db = pg_connect("host='ec2-54-163-230-178.compute-1.amazonaws.com' dbname=d7396
     <h3 id="titulo">Agregar Empleado</h3>
     <hr color="blue" size=3 />
         <p id="parrafo2">
-        <strong>Codigo:</strong> <input type="text" name="Cod" size="5">
-        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Descripcion:</strong> <input type="text" name="Descr" size="40">
+        <strong>Nombre:</strong> <input type="text" name="Nom" size="40">
+        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Fecha de Ingres:</strong> <input type="text" name="Fech" size="5">
     </p>
-    <p id="parrafo2">
-        <strong>Año de Estreno:</strong> <input type="number" name="Ano" size="5">
-        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Genero:</strong> <input type="text" name="Gene" size="20">
-    </p>
-    <p id="parrafo2">
-        <strong>Cantidad:</strong> <input type="number" name="Cant" size="5">
-        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Precio:</strong> <input type="number" name="Prec" size="5">
-    </p>
+
     <p id="parrafo3">
         <!–-   Creacion de Botones  -–>
         <input id="boton" type="submit" value="Registrar" />
