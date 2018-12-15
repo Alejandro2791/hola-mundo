@@ -1,6 +1,10 @@
 <?php
 $Password = getenv('db_password');
-$db = pg_connect("host='ec2-54-163-230-178.compute-1.amazonaws.com' dbname=d73969j44gs1g8 port=5432 user=twqtfrzpcthcer password=$Password") or die ("Error de Conexion".pg_last_error());
+$Host = getenv('db_host');
+$Database = getenv('db_database');
+$User = getenv('db_user');
+$Port = getenv('db_port');
+$db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password") or die ("Error de Conexion".pg_last_error());
 
 //Variables de Insertar Datos
 $Nombre =$_POST['Nom'];
