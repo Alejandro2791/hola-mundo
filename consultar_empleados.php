@@ -31,7 +31,7 @@ $resultado = pg_query($db,$sql);
             while($datos= pg_fetch_array($resultado)){
     ?>
                 <tr>
-                <td><?php echo $datos["idTrab"]?></td>
+                <td><?php echo $datos["idtrab"]?></td>
                 <td><?php echo $datos["nombre"]?></td>
                 <td><?php echo $datos["feching"]?></td>
             </tr>
