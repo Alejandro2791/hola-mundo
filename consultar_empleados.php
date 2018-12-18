@@ -28,7 +28,7 @@ $resultado = pg_query($db,$sql);
         <td>Fecha Ingreso</td>
     </tr>
     <?php
-            while($datos= pg_fetch_array($resultado,null,$db)){
+            while($datos= pg_fetch_array($resultado)){
     ?>
                 <tr>
                 <td><?php echo $datos["idTrab"]?></td>
