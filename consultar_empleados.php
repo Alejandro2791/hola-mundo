@@ -3,7 +3,7 @@ include("conexion.php");
 
 $sql = "SELECT*FROM Empleados";
 
-$resultado = $db -> query($sql);
+$resultado = pg_query($db,$sql);
 
 ?>
 
