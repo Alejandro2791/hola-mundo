@@ -8,7 +8,7 @@
 <body id="body">
     <h3 id="titulo">Control de Empleados</h3>
     <hr color="blue" size=3>
-    <h1 id="subtitulo">Menu</h1>
+    <h1 id="titulo">Menu</h1>
     
             <!–-   Creacion de Botones  -–>
         <button id="boton" onclick="location.href='agregar_empleados.php'">Agregar Empleados</button>
