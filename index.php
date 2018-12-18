@@ -3,26 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <title>Aplicacion - Hola Mundo</title>
-
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
 </head>
-<body>
-    <h1>Aplicacion</h1>
-    <hr color="blue" size=3 />
-    <h3 id="titulo">Agregar Empleado</h3>
-    <hr color="blue" size=3 />
+<body id="body">
+    <h3 id="subtitulo">Control de Empleados</h3>
+    <hr color="blue" size=3>
+    <h1 id="titulo">Menu</h1>
     
-    <form method="post" action="conexion.php">
-        <p id="parrafo2">
-        <strong>Nombre:</strong> <input type="text" name="Nom" size="40">
-        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Fecha de Ingreso:</strong> <input type="text" name="Fech" size="10">
-    </p>
-
-    <p id="parrafo3">
-        <!–-   Creacion de Botones  -–>
-        <input id="boton" type="submit" value="Registrar" />
-
-    </p>
-    </form>
+            <!–-   Creacion de Botones  -–>
+        <button id="boton" onclick="location.href='Secundaria1.html'">Ingresar Peliculas</button>
+        &nbsp;&nbsp;
+        <button id="boton" onclick="location.href='Secundaria2.php'">Eliminar Peliculas</button>
+        &nbsp;&nbsp;
+        <button id="boton" onclick="location.href='Secundaria3.html'">Consultar Peliculas</button>
+        &nbsp;&nbsp;
+        <button id="boton" onclick="location.href='Secundaria4.php'">Modificar Peliculas</button>
 
 </body>
 </html>
