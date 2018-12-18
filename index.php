@@ -11,9 +11,9 @@
     <h1 id="titulo">Menu</h1>
     
             <!–-   Creacion de Botones  -–>
-        <button id="boton" onclick="location.href='agregar.php'">Agregar Empleados</button>
+        <button id="boton" onclick="location.href='agregar_empleados.php'">Agregar Empleados</button>
         &nbsp;&nbsp;
-        <button id="boton" onclick="location.href='consultar.php'">Consultar Empleados</button>
+        <button id="boton" onclick="location.href='consultar_empleados.php'">Consultar Empleados</button>
 
 </body>
 </html>
