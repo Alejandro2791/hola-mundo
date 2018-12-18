@@ -1,3 +1,12 @@
+<?php
+include("conexion.php");
+
+$sql = "SELECT*FROM Empleados";
+
+$resultado = $db -> query($sql);
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,18 +21,25 @@
     <h3 id="titulo">Consultar Empleado</h3>
     <hr color="blue" size=3 />
     
-   <form action="NOMBRE_DEL_ARCHIVO.php" method="post">
-      <label type="label"> INSERTAR QUERY : </label>
-      <input type="text" name="sql"></input>
-      <input type="submit"></input>
-   </form>
+    <table width="70%" border="1px" align="center">
+        <tr align="center">
+        <td>Codigo</td>
+        <td>Nombre</td>
+        <td>Fecha Ingreso</td>
+    </tr>
+    <?php
+            while($datos=$resultado->fetch_array()){
+    ?>
+                <tr>
+                <td><?php echo $datos["idTrab"]?></td>
+                <td><?php echo $datos["nombre"]?></td>
+                <td><?php echo $datos["feching"]?></td>
+            </tr>
 
-    <p id="parrafo3">
-        <!–-   Creacion de Botones  -–>
-        <input id="boton" type="submit" value="Registrar" />
-
-    </p>
-    </form>
+    <?php   
+        }
+     ?>
+    </table>
 
 </body>
 </html>
