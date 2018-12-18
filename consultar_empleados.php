@@ -12,11 +12,11 @@
     <h3 id="titulo">Consultar Empleado</h3>
     <hr color="blue" size=3 />
     
-    <form method="post" action="agregar.php">
-        <p id="parrafo2">
-        <strong>Nombre:</strong> <input type="text" name="Nom" size="40">
-        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<strong>Fecha de Ingreso:</strong> <input type="text" name="Fech" size="10">
-    </p>
+   <form action="NOMBRE_DEL_ARCHIVO.php" method="post">
+      <label type="label"> INSERTAR QUERY : </label>
+      <input type="text" name="sql"></input>
+      <input type="submit"></input>
+   </form>
 
     <p id="parrafo3">
         <!–-   Creacion de Botones  -–>
