@@ -15,7 +15,7 @@ $Fecha =$_POST['Fech'];
   if(pg_query($db, $sql)){
 echo "<script>
 alert('Registro nuevo');
-    window.location= 'index.php'
+    window.location= 'agregar.php'
 </script>";;
 }else{
 echo "Error: ".$sql."<br>".pg_last_error($db);
