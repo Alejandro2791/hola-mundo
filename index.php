@@ -6,9 +6,9 @@
     <link rel="stylesheet" type="text/css" href="StyleSheet.css">
 </head>
 <body id="body">
-    <h3 id="titulo">Control de Empleados</h3>
+    <h1 id="titulo">Control de Empleados</h1>
     <hr color="blue" size=3>
-    <h1 id="titulo">Menu</h1>
+    <h3 id="subtitulo">Menu</h3>
     
             <!–-   Creacion de Botones  -–>
         <button id="boton" onclick="location.href='agregar_empleados.php'">Agregar Empleados</button>
