@@ -7,7 +7,7 @@
 
 </head>
 <body id="body">
-    <h1>Aplicacion</h1>
+    <h1 id="titulo">Aplicacion</h1>
     <hr color="blue" size=3 />
     <h3 id="titulo">Agregar Empleado</h3>
     <hr color="blue" size=3 />
